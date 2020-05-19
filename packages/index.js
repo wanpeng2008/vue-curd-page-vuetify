@@ -1,7 +1,11 @@
-import PackageTest from './packagetest/index'
+import ConfigurableComponent from './ConfigurableComponent/index'
+import PackageDemo from './PackageDemo/index'
+import CurdPage from './CurdPage/index'
 
 const components = [
-    PackageTest
+    ConfigurableComponent,
+    PackageDemo,
+    CurdPage,
 ]
 
 const install = function (Vue) {

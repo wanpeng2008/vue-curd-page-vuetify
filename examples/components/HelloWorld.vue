@@ -78,7 +78,8 @@
         </v-row>
       </v-col>
     </v-row>
-    <package-test>PackageTestComponent placeholder</package-test>
+    <package-demo>PackageDemoComponent placeholder</package-demo>
+    <curd-page>CurdPage placeholder</curd-page>
   </v-container>
 </template>
 

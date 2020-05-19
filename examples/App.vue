@@ -34,18 +34,19 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld />
+      <!-- <HelloWorld /> -->
+      <curd-page-demo></curd-page-demo>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import CurdPageDemo from "./components/CurdPageDemo";
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    CurdPageDemo,
   },
 
   data: () => ({

@@ -4,10 +4,10 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify';
-import PackageTest from '../packages/index'
+import CurdPagePlugin from '../packages/index'
 
 Vue.config.productionTip = false
-Vue.use(PackageTest)
+Vue.use(CurdPagePlugin)
 
 new Vue({
   router,
